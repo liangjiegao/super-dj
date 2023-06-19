@@ -1,0 +1,25 @@
+spring:
+  profiles: common
+
+tencent:
+  cloud:
+    appId: 腾讯云APPID
+    secretId: 腾讯云SecretId
+    secretKey: 腾讯云SecretKey
+    region-public: 公有存储桶所在地域
+    bucket-public: 公有存储桶名称
+    region-private: 私有存储桶所在地域
+    bucket-private: 私有存储桶名称
+
+wx:
+  app-id: wx48999b2d4b8ce6ac
+  app-secret: 62958671cb52cb6fccf443fc263468d0
+  mch-id: 商户号（课程QQ群共享文件中获取）
+  key: 商户密钥（课程QQ群共享文件中获取）
+  cert-path: E:\apiclient_cert.p12
+
+minio:
+  endpoint: http://124.71.97.127:9000
+  access-key: miniosuperl
+  secret-key: wDb.aK._+jp,o23d
+
